@@ -1,0 +1,8 @@
+
+.table td, .table th{
+  padding: 0px !important;  
+}
+
+.table{
+  margin-right: 2rem !important;
+}

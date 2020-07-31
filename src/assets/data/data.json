@@ -1,105 +1,73 @@
 
-     [{
+     [
+         {
         "id": 54644654,
         "revisar": "SI",
         "num_criterio": 1553,
         "custcode": 86565121,
+        "customer_id": "45826482T",
         "nif": "0000000Z",
         "criterio": "cirterio-ejemplo",
         "factura": 1561654651,
-        "simcoc": "X",
-        "desc_love": "Activo",
-        "status": "X",
-        "login": "jdoe"
-    },    
-    {
-        "id": 54644654,
-        "revisar": "SI",
-        "num_criterio": 1553,
-        "custcode": 86565121,
-        "nif": "0000000Z",
-        "criterio": "cirterio-ejemplo",
-        "factura": 1561654651,
-        "simcoc": "X",
+        "simoc": "X",
         "desc_love": "Activo",
         "status": "X",
         "login": "jdoe"
     },
-    {
+         {
         "id": 54644654,
         "revisar": "SI",
         "num_criterio": 1553,
         "custcode": 86565121,
+        "customer_id": "45826482T",
         "nif": "0000000Z",
         "criterio": "cirterio-ejemplo",
         "factura": 1561654651,
-        "simcoc": "X",
+        "simoc": "X",
         "desc_love": "Activo",
         "status": "X",
         "login": "jdoe"
     },
-    {
+         {
         "id": 54644654,
         "revisar": "SI",
         "num_criterio": 1553,
         "custcode": 86565121,
+        "customer_id": "45826482T",
         "nif": "0000000Z",
         "criterio": "cirterio-ejemplo",
         "factura": 1561654651,
-        "simcoc": "X",
+        "simoc": "X",
         "desc_love": "Activo",
         "status": "X",
         "login": "jdoe"
     },
-    {
+         {
         "id": 54644654,
         "revisar": "SI",
         "num_criterio": 1553,
         "custcode": 86565121,
+        "customer_id": "45826482T",
         "nif": "0000000Z",
         "criterio": "cirterio-ejemplo",
         "factura": 1561654651,
-        "simcoc": "X",
+        "simoc": "X",
         "desc_love": "Activo",
         "status": "X",
         "login": "jdoe"
     },
-    {
+         {
         "id": 54644654,
         "revisar": "SI",
         "num_criterio": 1553,
         "custcode": 86565121,
+        "customer_id": "45826482T",
         "nif": "0000000Z",
         "criterio": "cirterio-ejemplo",
         "factura": 1561654651,
-        "simcoc": "X",
+        "simoc": "X",
         "desc_love": "Activo",
         "status": "X",
         "login": "jdoe"
-    },
-    {
-        "id": 54644654,
-        "revisar": "SI",
-        "num_criterio": 1553,
-        "custcode": 86565121,
-        "nif": "0000000Z",
-        "criterio": "cirterio-ejemplo",
-        "factura": 1561654651,
-        "simcoc": "X",
-        "desc_love": "Activo",
-        "status": "X",
-        "login": "jdoe"
-    },
-    {
-        "id": 54644654,
-        "revisar": "SI",
-        "num_criterio": 1553,
-        "custcode": 86565121,
-        "nif": "0000000Z",
-        "criterio": "cirterio-ejemplo",
-        "factura": 1561654651,
-        "simcoc": "X",
-        "desc_love": "Activo",
-        "status": "X",
-        "login": "jdoe"
-    }]
+    }
+ ]

@@ -10,7 +10,8 @@ import { DataServiceService } from '../../service/data-service/data-service.serv
 @Component({
   selector: 'app-table-bill-review',
   templateUrl: './table-bill-review.component.html',
-  providers: [DecimalPipe]
+  providers: [DecimalPipe],
+  styleUrls: ['./table-bill-review.component.css']
 })
 export class NgbdTableFiltering implements OnInit {
   ngOnInit(){this.getData()}
