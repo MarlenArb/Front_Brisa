@@ -1,29 +1,49 @@
-<p>You can do filter table data, in this case with observables and our <code>NgbHighlight</code> component used in Typeahead</p>
+<div class="container">
+  
+  <form>
+    <div class="row justify-content-between mt-3">
 
-<form>
-  <div class="form-group form-inline">
-      Full text search: <input class="form-control ml-2" type="text" [formControl]="filter"/>
-  </div>
-</form>
+      <h3>Bill Review C62</h3>
+      <div class="form-group form-inline">
+          <input class="form-control ml-2" type="text" [formControl]="filter" placeholder="Search..."/>
+      </div>
 
-<table class="table table-striped">
-  <thead>
-  <tr>
-    <th scope="col">#</th>
-    <th scope="col">Country</th>
-    <th scope="col">Area</th>
-    <th scope="col">Population</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr *ngFor="let country of countries$ | async; index as i">
-    <th scope="row">{{ i + 1 }}</th>
-    <td>
-      <img [src]="'https://upload.wikimedia.org/wikipedia/commons/' + country.flag" class="mr-2" style="width: 20px">
-      <ngb-highlight [result]="country.name" [term]="filter.value"></ngb-highlight>
-    </td>
-    <td><ngb-highlight [result]="country.area | number" [term]="filter.value"></ngb-highlight></td>
-    <td><ngb-highlight [result]="country.population | number" [term]="filter.value"></ngb-highlight></td>
-  </tr>
-  </tbody>
-</table>
+    </div>
+
+  </form>
+  
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">Revisar</th>
+      <th scope="col">num_criterio</th>
+      <th scope="col">custcode</th>
+      <th scope="col">custum_id</th>
+      <th scope="col">nif</th>
+      <th scope="col">criterio</th>
+      <th scope="col">factura</th>
+      <th scope="col">simoc</th>
+      <th scope="col">desc_love</th>
+      <th scope="col">status</th>
+      <th scope="col">login</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let dat of data; index as i">
+      <td><ngb-highlight [result]="dat.id" [term]="filter.value"></ngb-highlight></td>
+      <td>{{dat.revisar}}</td>
+      <td>{{dat.num_critero}}</td>
+      <td>{{dat.custcode}}</td>
+      <td>{{dat.custom_id}}</td>
+      <td><ngb-highlight [result]="dat.nif" [term]="filter.value"></ngb-highlight></td>
+      <td>{{dat.criterio}}</td>
+      <td><ngb-highlight [result]="dat.factura " [term]="filter.value"></ngb-highlight></td>
+      <td>{{dat.simoc}}</td>
+      <td>{{dat.desc_love}}</td>
+      <td>{{dat.status}}</td>
+      <td>{{dat.login}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
