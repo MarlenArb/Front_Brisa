@@ -1,4 +1,4 @@
-import { Component, PipeTransform, OnInit } from '@angular/core';
+import { Component, PipeTransform, OnInit} from '@angular/core';
 import { DecimalPipe } from '@angular/common';
 import { FormControl } from '@angular/forms';
 
@@ -14,7 +14,9 @@ import { DataServiceService } from '../../service/data-service/data-service.serv
   styleUrls: ['./table-bill-review.component.css']
 })
 export class NgbdTableFiltering implements OnInit {
-  ngOnInit(){this.getData()}
+  ngOnInit(){
+  this.getData();
+}
 
   data: any[] = [];
   data$: Observable<any[]>;
@@ -44,4 +46,7 @@ export class NgbdTableFiltering implements OnInit {
           || pipe.transform(data.nif).includes(term);
     });
   }
+  
+
+
 }
