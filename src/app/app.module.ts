@@ -17,6 +17,7 @@ import { HeaderComponent } from './shared/header/header.component';
 //ng-Bootstrap
 import { NgbModule, NgbHighlight} from '@ng-bootstrap/ng-bootstrap';
 import {NgbdTableFilteringModule} from './pages/table-bill-review/table-bill-review.module';
+import { ClientDetailsComponent } from './pages/client-details/client-details.component';
 
 
 
@@ -26,7 +27,8 @@ import {NgbdTableFilteringModule} from './pages/table-bill-review/table-bill-rev
     PageMainComponent,
     HomeComponent,
     NotFoundComponent,
-    HeaderComponent
+    HeaderComponent,
+    ClientDetailsComponent
 
   ],
   imports: [

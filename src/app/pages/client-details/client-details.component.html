@@ -1,0 +1,124 @@
+<div style="margin: 1%;">
+    <div class="row" style="margin: 1%;">
+        <button type="button" style="margin-left: 1%;" class="btn btn-primary">PDF</button>
+        <button type="button" style="margin-left: 1%;" class="btn btn-primary">OCCS</button>
+        <button type="button" style="margin-left: 1%;" class="btn btn-primary">SERVICIOS</button>
+    </div>
+    <div class="container">
+        <span>Criterios</span>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">num_criterio</th>
+                    <th scope="col">criterio</th>
+                    <th scope="col">custcode</th>
+                    <th scope="col">nif</th>
+                    <th scope="col">customer_id</th>
+                    <th scope="col">factura</th>
+                    <th scope="col">id_br</th>
+                    <th scope="col">simoc</th>
+                    <th scope="col">desc_love</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of clientDetails" (click)="getClientDetails()">
+                    <td>{{item.id}}</td>
+                    <td>{{item.num_criterio}}</td>
+                    <td>{{item.criterio}}</td>
+                    <td>{{item.custcode}}</td>
+                    <td>{{item.nif}}</td>
+                    <td>{{item.customer_id}}</td>
+                    <td>{{item.factura}}</td>
+                    <td>{{item.id_br}}</td>
+                    <td>{{item.simoc}}</td>
+                    <td>{{item.desc_love}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="margin: 1%;">
+        <h3>Services</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">customer_id</th>
+                    <th scope="col">co_id</th>
+                    <th scope="col">msisdn</th>
+                    <th scope="col">tmcode</th>
+                    <th scope="col">tmdes</th>
+                    <th scope="col">spcode</th>
+                    <th scope="col">spdes</th>
+                    <th scope="col">sncode</th>
+                    <th scope="col">sndes</th>
+                    <th scope="col">estado</th>
+                    <th scope="col">accessfee</th>
+                    <th scope="col">cs_access</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of clientDetailsService">
+                    <td>{{item.customer_id}}</td>
+                    <td>{{item.co_id}}</td>
+                    <td>{{item.msisdn}}</td>
+                    <td>{{item.tmcode}}</td>
+                    <td>{{item.tmdes}}</td>
+                    <td>{{item.spcode}}</td>
+                    <td>{{item.spdes}}</td>
+                    <td>{{item.sncode}}</td>
+                    <td>{{item.sndes}}</td>
+                    <td>{{item.estado}}</td>
+                    <td>{{item.accessfee}}</td>
+                    <td>{{item.cs_access}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div style="margin: 1%;">
+        <div class="row">
+            <div class="col-4">
+                <h3>Resumen OCCs</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">shdes</th>
+                            <th scope="col">Importe</th>
+                            <th scope="col">Numero</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of clientDetailsOCCs">
+                            <td>{{item.shdes}}</td>
+                            <td>{{item.importe}}</td>
+                            <td>{{item.numero}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-8">
+                <h3>PROMOCIONES</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">customer_id</th>
+                            <th scope="col">pack_id</th>
+                            <th scope="col">description</th>
+                            <th scope="col">assign_date</th>
+                            <th scope="col">delete_date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of clientDetailsPromotion">
+                            <td>{{item.customer_id}}</td>
+                            <td>{{item.pack_id}}</td>
+                            <td>{{item.description}}</td>
+                            <td>{{item.assign_date}}</td>
+                            <td>{{item.delete_date}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

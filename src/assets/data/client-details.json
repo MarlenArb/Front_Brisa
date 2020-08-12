@@ -1,0 +1,50 @@
+[
+    {
+        "id": "102522",
+        "num_criterio": "1553",
+        "criterio": "k-Compensación por disponibilidad del servicio (SE069)",
+        "custcode": "1.74787455",
+        "nif":"06232354K",
+        "customer_id": "65511464",
+        "factura": "0011999389",
+        "id_br": "230",
+        "simoc": "X",
+        "desc_love": "ACTIVO"
+    },
+    {
+        "id": "102523",
+        "num_criterio": "1553",
+        "criterio": "k-Promoción Selección (SE280)",
+        "custcode": "1.74787455",
+        "nif":"06232354K",
+        "customer_id": "65511464",
+        "factura": "0011999389",
+        "id_br": "230",
+        "simoc": "X",
+        "desc_love": "ACTIVO"
+    },
+    {
+        "id": "102524",
+        "num_criterio": "1553",
+        "criterio": "k-Selección (SE262)",
+        "custcode": "1.74787455",
+        "nif":"06232354K",
+        "customer_id": "65511464",
+        "factura": "0011999389",
+        "id_br": "230",
+        "simoc": "X",
+        "desc_love": "ACTIVO"
+    },
+    {
+        "id": "102525",
+        "num_criterio": "1553",
+        "criterio": "k-Promoción Champions (SE083)",
+        "custcode": "1.74787455",
+        "nif":"06232354K",
+        "customer_id": "65511464",
+        "factura": "0011999389",
+        "id_br": "230",
+        "simoc": "X",
+        "desc_love": "ACTIVO"
+    }
+]

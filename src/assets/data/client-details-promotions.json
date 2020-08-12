@@ -1,0 +1,16 @@
+[
+    {
+        "customer_id": "65511464",
+        "pack_id": "1060",
+        "description": "PROMO 50%",
+        "assign_date": "26-APR-19",
+        "delete_date": ""
+    },
+    {
+        "customer_id": "65511464",
+        "pack_id": "1073",
+        "description": "RETEN 40%",
+        "assign_date": "07-MAY-19",
+        "delete_date": ""
+    }
+]

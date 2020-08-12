@@ -1,0 +1,44 @@
+[
+    {
+        "customer_id": "65511464",
+        "co_id": "86319131",
+        "msisdn": "618944261",
+        "tmcode": "692",
+        "tmdes": "Línea Smartphone sin límites",
+        "spcode": "3",
+        "spdes": "Servicios Básicos",
+        "sncode": "2",
+        "sndes": "Telefonía",
+        "estado": "a",
+        "accessfee": "0",
+        "cs_access": "0"
+    },
+    {
+        "customer_id": "65511464",
+        "co_id": "86319131",
+        "msisdn": "618944261",
+        "tmcode": "692",
+        "tmdes": "Línea Smartphone sin límites",
+        "spcode": "3",
+        "spdes": "Servicios Básicos",
+        "sncode": "30",
+        "sndes": "Cuota Mensual",
+        "estado": "a",
+        "accessfee": "13.1818",
+        "cs_access": "0"
+    },
+    {
+        "customer_id": "65511464",
+        "co_id": "86319131",
+        "msisdn": "618944261",
+        "tmcode": "692",
+        "tmdes": "Línea Smartphone sin límites",
+        "spcode": "3",
+        "spdes": "Servicios Básicos",
+        "sncode": "1970",
+        "sndes": "Cuota Mensual Pack",
+        "estado": "a",
+        "accessfee": "0",
+        "cs_access": "13.1818"
+    }
+]
